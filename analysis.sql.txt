@@ -20,3 +20,4 @@ GROUP BY job_title;
 SELECT job_title, ROUND(AVG(salary_in_usd), 2) as average_salary_in_usd
 FROM datasciencesalaries.ds_salaries
 GROUP BY job_title;
+
